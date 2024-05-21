@@ -1,7 +1,7 @@
 // src/TopBar.js
-import React from 'react';
+import React, { CSSProperties } from 'react';
 
-const topBarStyle = {
+const topBarStyle: React.CSSProperties = {
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
@@ -15,19 +15,19 @@ const topBarStyle = {
   zIndex: 1000, // Ensure it stays on top of other content
 };
 
-const logoStyle = {
+const logoStyle: React.CSSProperties = {
   fontSize: '1.5em',
   fontWeight: 'bold',
 };
 
-const searchBarContainerStyle = {
+const searchBarContainerStyle: React.CSSProperties = {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
   flex: 1,
 };
 
-const searchBarStyle = {
+const searchBarStyle:React.CSSProperties= {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
@@ -37,7 +37,7 @@ const searchBarStyle = {
   marginRight: '20px',
 };
 
-const searchInputStyle = {
+const searchInputStyle: React.CSSProperties = {
   width: '100%',
   padding: '5px 10px',
   fontSize: '1em',
@@ -45,7 +45,7 @@ const searchInputStyle = {
   border: '1px solid #ccc',
 };
 
-const profilePictureStyle = {
+const profilePictureStyle:React.CSSProperties = {
   width: '40px',
   height: '40px',
   borderRadius: '50%',
